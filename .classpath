@@ -17,6 +17,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/SHAIK ABRAR UL HAQ/Downloads/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bharath231-so/Downloads/jstl-1.2.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
