@@ -1,4 +1,4 @@
-package com.bharath.usermanagement.web;
+package com.bharath.web;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -20,7 +20,7 @@ public class LoginServlet extends HttpServlet {
 		String email=request.getParameter("email");
 		String pass=request.getParameter("password");
 		
-		if(email.equals("Abrar@gmail.com") && pass.equals("abrar"))
+		if(email.equals("bharath@gmail.com") && pass.equals("bharath"))
 		{
 			HttpSession session =request.getSession();
 			session.setAttribute("session_id", email);
