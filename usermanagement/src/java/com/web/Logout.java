@@ -1,4 +1,4 @@
-package bharath.usermanagement.web;
+package bharath.web;
 
 
 import jakarta.servlet.ServletException;
