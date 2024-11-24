@@ -1,4 +1,4 @@
-package com.bharath.usermanagement.bean;
+package com.bharath.bean;
 
 public class User {
 	private int id;
