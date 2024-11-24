@@ -12,7 +12,7 @@ import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 
-import com.bharath.bean.usermanagementproject;
+import com.bharath.bean;
 import com.bharath.dao.userdao;
 
 @WebServlet("/")
