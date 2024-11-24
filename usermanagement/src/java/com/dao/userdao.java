@@ -1,4 +1,4 @@
-package com.abrar.usermanagement.dao;
+package com.bharath.dao;
 
 //import java.sql.*;
 import java.util.ArrayList;
@@ -8,13 +8,13 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import com.abrar.usermanagement.bean.User;
+import com.bharath.bean.user;
 
-public class UserDao {
+public class userdao {
 
-	private String jdbcUrl = "jdbc:postgresql://localhost:5432/UserManagement";
+	private String jdbcUrl = "jdbc:postgresql://localhost:5432/usermanagement";
 	private String jdbcUsername = "postgres";
-	private String jdbcPassword = "abrar";
+	private String jdbcPassword = "bharath";
 	private String jdbcDriver = "org.postgresql.Driver";
 
 	private static final String SELECT_ALL_USERS = "select * from users;";
@@ -24,7 +24,7 @@ public class UserDao {
 			+ " (?, ?, ?);";
 	private static final String SELECT_USERS_BY_ID = "select id,name,email,country from users where id = ?;";
 
-	public UserDao() {
+	public userdao() {
 
 	}
 
@@ -102,7 +102,7 @@ public class UserDao {
 	}
 
 	// select users by id
-	public User selectUsersById(int id) {
+	public User selectusersById(int id) {
 		User user = null;
 
 		System.out.println(SELECT_USERS_BY_ID);
